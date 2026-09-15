@@ -5,9 +5,18 @@ import Reveal from '@/components/Reveal';
 import SmartImage from '@/components/SmartImage';
 
 const PHOTOS = [
-  { src: '/images/david-playing.jpg', label: 'David Hodgson \u2013 playing days' },
-  { src: '/images/david-coaching.jpg', label: 'David Hodgson \u2013 coaching' },
-  { src: '/images/david-action2.jpg', label: 'David Hodgson \u2013 in action' },
+  {
+    src: `${import.meta.env.BASE_URL}images/david-playing.jpg`,
+    label: 'David Hodgson – playing days',
+  },
+  {
+    src: `${import.meta.env.BASE_URL}images/david-coaching.jpg`,
+    label: 'David Hodgson – coaching',
+  },
+  {
+    src: `${import.meta.env.BASE_URL}images/david-action2.jpg`,
+    label: 'David Hodgson – in action',
+  },
 ];
 
 const HIGHLIGHTS = [

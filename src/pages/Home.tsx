@@ -6,9 +6,9 @@ import { FaqSection } from '@/components/Faq';
 import { FACEBOOK_URL } from '@/lib/site';
 
 const SQUAD_PHOTOS = [
-  { src: '/images/squad1.jpg', label: 'Squad photo 1' },
-  { src: '/images/squad2.jpg', label: 'Training session' },
-  { src: '/images/squad3.jpg', label: 'Squad photo 3' },
+  { src: `${import.meta.env.BASE_URL}images/squad1.jpg`, label: 'Squad photo 1' },
+  { src: `${import.meta.env.BASE_URL}images/squad2.jpg`, label: 'Training session' },
+  { src: `${import.meta.env.BASE_URL}images/squad3.jpg`, label: 'Squad photo 3' },
 ];
 
 export default function Home() {

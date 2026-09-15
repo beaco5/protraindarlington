@@ -78,22 +78,22 @@ function SessionRow({ session }: { session: Session }) {
 
 const PROGRAMMES = [
   {
-  title: 'Pro Train Darlington',
-  ages: 'Ages 11\u201313',
-  audience: 'Mixed groups',
-  location: LOCATIONS.darlington,
-  blurb:
-    'General youth coaching for mixed groups, developing technical ability, game understanding and confidence in a fun, supportive setting.',
-  image: '/images/mixed-groups-poster.png',
-},
+    title: 'Pro Train Darlington',
+    ages: 'Ages 11–13',
+    audience: 'Mixed groups',
+    location: LOCATIONS.darlington,
+    blurb:
+      'General youth coaching for mixed groups, developing technical ability, game understanding and confidence in a fun, supportive setting.',
+    image: `${import.meta.env.BASE_URL}images/mixed-groups-poster.png`,
+  },
   {
     title: 'Pro Train Darlington All-Girls',
-    ages: 'Ages 12\u201315',
+    ages: 'Ages 12–15',
     audience: 'Girls-only',
     location: LOCATIONS.darlington,
     blurb:
       'A dedicated girls-only programme designed to nurture young female talent in an encouraging, empowering environment.',
-    image: '/images/all-girls-banner.jpg',
+    image: `${import.meta.env.BASE_URL}images/all-girls-banner.jpg`,
   },
 ];
 

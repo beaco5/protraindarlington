@@ -3,10 +3,10 @@ import Reveal from '@/components/Reveal';
 import SmartImage from '@/components/SmartImage';
 
 const GALLERY = [
-  { src: '/images/gallery1.jpg', label: 'Training session' },
-  { src: '/images/gallery2.jpg', label: 'Squad photo' },
-  { src: '/images/gallery3.jpg', label: 'Match day' },
-  { src: '/images/gallery4.jpg', label: 'Skills practice' },
+  { src: `${import.meta.env.BASE_URL}images/gallery1.jpg`, label: 'Training session' },
+  { src: `${import.meta.env.BASE_URL}images/gallery2.jpg`, label: 'Squad photo' },
+  { src: `${import.meta.env.BASE_URL}images/gallery3.jpg`, label: 'Match day' },
+  { src: `${import.meta.env.BASE_URL}images/gallery4.jpg`, label: 'Skills practice' },
 ];
 
 export default function Gallery() {
