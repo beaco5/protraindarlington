@@ -91,8 +91,7 @@ export default function Home() {
                   <div>
                     <p className="font-heading text-lg uppercase">Friday 16:30</p>
                     <p className="text-sm text-cream/70">
-                      Girls Only 12–15 • From 18th September
-                    </p>
+                      Girls Only 12–15 • 
                   </div>
                   <span className="rounded-full bg-emerald-500/20 px-3 py-1 text-xs font-semibold text-emerald-200">
                     2 PLACES AVAILABLE
