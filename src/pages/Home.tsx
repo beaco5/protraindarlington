@@ -79,7 +79,7 @@ export default function Home() {
                   <div>
                     <p className="font-heading text-lg uppercase">Tuesday 16:30</p>
                     <p className="text-sm text-cream/70">
-                      Ages 11–13 • New session from 22nd September
+                      Ages 11–13 • New session from 29nd September
                     </p>
                   </div>
                   <span className="rounded-full bg-emerald-500/20 px-3 py-1 text-xs font-semibold text-emerald-200">
